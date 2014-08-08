@@ -9,7 +9,7 @@ def read(*paths):
 
 setup(
     name='chrome-webstore-deploy',
-    version='0.0.1',
+    version='0.0.2',
     description='Automate deployment of Chrome extensions/apps to Chrome Web Store.',
     long_description=(read('README.rst') + '\n\n'),
     url='http://github.com/jonnor/chrome-webstore-deploy/',
@@ -17,7 +17,7 @@ setup(
     author='Jon Nordby',
     author_email='jononor@gmail.com',
 #    py_modules=['foo'],
-    scripts=['bin/chrome-webstore.py'],
+    scripts=['bin/chrome-web-store.py'],
     install_requires=[
         "oauth2client >= 1.2",
         "httplib2 >= 0.9",
