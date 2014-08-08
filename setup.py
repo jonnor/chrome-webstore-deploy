@@ -17,7 +17,11 @@ setup(
     author='Jon Nordby',
     author_email='jononor@gmail.com',
 #    py_modules=['foo'],
-    scripts=['bin/chrome-webstore.py']
+    scripts=['bin/chrome-webstore.py'],
+    install_requires=[
+        "oauth2client >= 1.2",
+        "httplib2 >= 0.9",
+    ],
     include_package_data=True,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
