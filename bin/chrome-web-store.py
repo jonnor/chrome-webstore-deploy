@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+
+# This file is part of chrome-webstore-deploy
+# Copyright (c) 2014 TheGrid
+# May be freely distributed under the MIT license
+
 import sys, os
 import json
 import mimetypes

@@ -9,7 +9,7 @@ def read(*paths):
 
 setup(
     name='chrome-webstore-deploy',
-    version='0.1.0',
+    version='0.0.1',
     description='Automate deployment of Chrome extensions/apps to Chrome Web Store.',
     long_description=(read('README.rst') + '\n\n'),
     url='http://github.com/jonnor/chrome-webstore-deploy/',
