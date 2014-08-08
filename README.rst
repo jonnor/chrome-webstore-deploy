@@ -1,6 +1,6 @@
 
-
-== Usage ==
+Usage
+=========
 
 Example::
 
@@ -8,5 +8,7 @@ Example::
     export WEBSTORE_SECRETS_FILE=secrets.json
     python chrome-web-store.py PROJECT_ID --upload=MYAPP-*.zip --publish=internal
 
-== License ==
+License
+=========
+
 MIT
